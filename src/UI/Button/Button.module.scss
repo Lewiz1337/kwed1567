@@ -1,0 +1,8 @@
+@import '../../sass/index.scss';
+
+.primary {
+  @include button('primary');
+}
+.secondary {
+  @include button('secondary');
+}

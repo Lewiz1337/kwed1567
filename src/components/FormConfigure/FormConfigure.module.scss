@@ -1,0 +1,36 @@
+@import '../../sass/index.scss';
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 12px;
+
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  gap: 12px;
+
+  width: 100%;
+
+  margin-top: 8px;
+}
+.error {
+  @include text();
+  color: $alert;
+}
+@media (max-width: 335px) {
+  .buttons {
+    flex-direction: column;
+
+    button {
+      width: 100%;
+    }
+    a {
+      width: 100%;
+    }
+  }
+}

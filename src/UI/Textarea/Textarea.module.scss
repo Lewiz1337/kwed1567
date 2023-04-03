@@ -1,0 +1,11 @@
+@import '../../sass/index.scss';
+
+.label {
+  @include label();
+  flex-direction: column;
+}
+.textarea {
+  @include textarea();
+  max-width: 100%;
+  width: 50%;
+}

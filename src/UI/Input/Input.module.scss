@@ -1,0 +1,18 @@
+@import '../../sass/index.scss';
+
+.label {
+  @include label();
+  width: 100%;
+}
+.checkbox {
+  @include checkbox();
+  margin: auto;
+}
+.input[type='text'],
+.input[type='number'] {
+  @include input();
+  width: 100%;
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+}

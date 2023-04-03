@@ -1,0 +1,17 @@
+.root {
+  padding: 30px 10px;
+  min-width: 300px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 36px;
+}
+
+@media (max-width: 578px) {
+  .root {
+    width: 100%;
+  }
+}
